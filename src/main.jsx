@@ -8,7 +8,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import {DataBinding} from "./Components/002_DataBindingSmallExample/databindingSmallEx.jsx"
 //import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
 //import { DataBinding } from './Components/004_ArraysDataBinding/arayDb';
-import { DataBinding } from './Components/ObjectBinding/objectBinding';
+import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
