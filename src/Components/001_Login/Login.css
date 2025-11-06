@@ -1,0 +1,12 @@
+.login-form
+{
+   background: linear-gradient(135deg, #ffe6f0, #ffffff);
+}
+
+.form-style
+{
+    border: 1px solid gray;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
