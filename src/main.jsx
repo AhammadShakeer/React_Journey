@@ -6,7 +6,9 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 
 //import {Login} from "./Components/001_Login/Login.jsx"
 //import {DataBinding} from "./Components/002_DataBindingSmallExample/databindingSmallEx.jsx"
-import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
+//import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
+import { DataBinding } from './Components/004_ArraysDataBinding/arayDb';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
