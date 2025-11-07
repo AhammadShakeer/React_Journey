@@ -26,6 +26,17 @@ export function DataBinding()
                 <dd>{product.Name}</dd>
                 <dt>Price</dt>
                 <dd>{product.Price.toLocaleString('en-in',{style:'currency',currency:'INR'})}</dd>
+                <dt>Shipped to</dt>
+                <dd>
+                    <ul>
+                        {product.ShippedTo.map(city=> <li key={city}>{city}</li> )}
+                    </ul>
+                </dd>
+                <dt>Ratings</dt>
+                <dd>
+                    <span className="badge bg-success rounded p-2">{product.Rating.Rate}<span className="bi bi-star-fill"></span></span>
+                    <span className="fw-bold text-secondary ms-2">{product.Rating.Count}ratings</span>
+                </dd>
             </dl>
         </div>
     );
