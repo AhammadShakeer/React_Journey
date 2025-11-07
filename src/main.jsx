@@ -8,11 +8,13 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import {DataBinding} from "./Components/002_DataBindingSmallExample/databindingSmallEx.jsx"
 //import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
 //import { DataBinding } from './Components/004_ArraysDataBinding/arayDb';
-import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
+//import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
+import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <DataBinding/>
+   <FlipkartCard/>
 
   </StrictMode>
 )
