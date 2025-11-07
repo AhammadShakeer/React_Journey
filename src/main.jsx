@@ -10,11 +10,11 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import { DataBinding } from './Components/004_ArraysDataBinding/arayDb';
 //import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
 import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
-
+import {CardAxios} from './Components/007_cardByAxios/card.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <FlipkartCard/>
+   <CardAxios/>
 
   </StrictMode>
 )
