@@ -12,11 +12,12 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
 // import {CardAxios} from './Components/007_cardByAxios/card.jsx'
 // import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
-import { PasswordStrength } from './Components/009_keyboardEvents/PasswordStrnegth.jsx';
+//import { PasswordStrength } from './Components/009_keyboardEvents/PasswordStrnegth.jsx';
+import { FocusDemo } from './Components/010_ElementStateEvents/focus_demo.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <PasswordStrength/>
+   <FocusDemo/>
 
   </StrictMode>
 )
