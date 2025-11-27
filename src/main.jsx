@@ -9,12 +9,13 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
 //import { DataBinding } from './Components/004_ArraysDataBinding/arayDb';
 //import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
-import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
-import {CardAxios} from './Components/007_cardByAxios/card.jsx'
+// import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
+// import {CardAxios} from './Components/007_cardByAxios/card.jsx'
+import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <CardAxios/>
+   <ImageSelection/>
 
   </StrictMode>
 )
