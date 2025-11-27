@@ -11,11 +11,12 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import { DataBinding } from './Components/005_ObjectBinding/objectBinding.jsx';
 // import {FlipkartCard} from './Components/006_cardExample/flipkart.jsx'
 // import {CardAxios} from './Components/007_cardByAxios/card.jsx'
-import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
+// import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
+import { PasswordStrength } from './Components/009_keyboardEvents/PasswordStrnegth.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <ImageSelection/>
+   <PasswordStrength/>
 
   </StrictMode>
 )
