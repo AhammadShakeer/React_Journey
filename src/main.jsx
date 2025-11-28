@@ -14,11 +14,11 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
 //import { PasswordStrength } from './Components/009_keyboardEvents/PasswordStrnegth.jsx';
 // import { FocusDemo } from './Components/010_ElementStateEvents/focus_demo.jsx';
-import { CarouselDemo } from './Components/011_CarouselDemo/CarouselDemo.jsx';
-
+// import { CarouselDemo } from './Components/011_CarouselDemo/CarouselDemo.jsx';
+import { FormDemo } from './Components/012_formikExample/formikdemo.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <CarouselDemo/>
+   <FormDemo/>
 
   </StrictMode>
 )
