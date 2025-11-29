@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useRef, useState } from "react"
+import { NavBar } from "../../ContrrolledComponents/001_NavBar";
 
 export function CarouselDemo()
 {
@@ -50,7 +51,11 @@ export function CarouselDemo()
     }
 
     return(
+        <div>
+            <NavBar brand="Broklyn" menu={['home','contasct','serach']} />
+            <NavBar brand="amplify" menu={['address']} />
         <div className="container-fluid d-flex justify-content-center p-3">
+            
             <div className="card p-2 mt-4 w-50">
                 <div className="card-header text-center fw-bold">
                     {product.title}
@@ -75,6 +80,7 @@ export function CarouselDemo()
                     <button className="btn btn-warning bi bi-play mx-2" onClick={handlePlay}></button>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

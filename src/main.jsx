@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
-
+import {CookiesProvider} from "react-cookie"
 //import {Login} from "./Components/001_Login/Login.jsx"
 //import {DataBinding} from "./Components/002_DataBindingSmallExample/databindingSmallEx.jsx"
 //import {DataBinding} from "./Components/003_TwoWayDataBindingSmallEx/DataBinding.jsx"
@@ -14,11 +14,17 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 // import { ImageSelection } from './Components/008_EventHAndler/ImageSelection.jsx';
 //import { PasswordStrength } from './Components/009_keyboardEvents/PasswordStrnegth.jsx';
 // import { FocusDemo } from './Components/010_ElementStateEvents/focus_demo.jsx';
-// import { CarouselDemo } from './Components/011_CarouselDemo/CarouselDemo.jsx';
-import { FormDemo } from './Components/012_formikExample/formikdemo.jsx';
+ import { CarouselDemo } from './Components/011_CarouselDemo/CarouselDemo.jsx';
+// import { FormDemo } from './Components/012_formikExample/formikdemo.jsx';
+import { TutorialIndex } from './Components/013_Routinng/routingBasixEx.jsx';
+import { FakestoreIndex } from './ShoppingSample/FakestoreIndex.jsx';
+
+import { VideoLibraryIndex } from './video-library/user/video-library-index.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <FormDemo/>
+   <CookiesProvider>
+    <VideoLibraryIndex/>
+   </CookiesProvider>
 
   </StrictMode>
 )
